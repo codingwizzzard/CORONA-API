@@ -1,0 +1,76 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+h3 {
+  color: #007bff;
+}
+
+.title {
+  color: #42a5f5;
+}
+
+.subTitle {
+  color: #64b5f6;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.main-animated {
+  background-color: #424242;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-animated:hover {
+  transform: scale(1.05);
+}
+
+.boxHeader {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #616161;
+  color: #fff;
+  border: 1px solid #757575;
+}
+
+.dataDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.temp {
+  text-align: center;
+  padding: 10px;
+}
+
+#error {
+  color: #ff5252;
+}
+
+#stateName,
+#cityName {
+  margin: 10px;
+  display: inline-block;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CORONA API</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h2 class="title">CORONA VIRUS DISEASE OF 2019 (DATA)</h2>
+    <div class="mainBody">
+      <div class="main-animated">
+        <div class="boxHeader">
+          <select name="allStatesName" id="allStatesName">
+            <option value="" selected disabled>Select State</option>
+          </select>
+          <br />
+          <span class="location" id="stateName"><br /> </span>
+        </div>
+
+        <hr />
+        <div class="dataDiv">
+          <div class="temp">
+            <p>Total Confirmed</p>
+            <p id="confirmed"></p>
+          </div>
+          <div class="temp">
+            <p>Total Deceased</p>
+            <p id="deceased"></p>
+          </div>
+          <div class="temp">
+            <p>Total Recovered</p>
+            <p id="recovered"></p>
+          </div>
+          <div class="temp">
+            <p>Total Tested</p>
+            <p id="tested"></p>
+          </div>
+        </div>
+      </div>
+      <div class="main-animated">
+        <div class="boxHeader">
+          <select name="allCitiesName" id="allCitiesName">
+            <option value="" selected disabled>Select City</option>
+          </select>
+          <br />
+          <span class="location" id="cityName"><br /> </span>
+        </div>
+
+        <hr />
+        <div class="dataDiv">
+          <div class="temp">
+            <p>Total Confirmed</p>
+            <p id="cityConfirmed"></p>
+          </div>
+          <div class="temp">
+            <p>Total Deceased</p>
+            <p id="cityDeceased"></p>
+          </div>
+          <div class="temp">
+            <p>Total Recovered</p>
+            <p id="cityRecovered"></p>
+          </div>
+          <div class="temp">
+            <p>Total Tested</p>
+            <p id="cityTested"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 id="error"></h3>
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
